@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic');
+body{
+background-image:url(../photo/fon_box.jpg);
+background-size:cover;
+width:100%;
+height:100%;
+}
+#text_box{
+float:left;
+color:#1c1c1c;
+font-size:128px;
+font-family: 'Marck Script',cursive;
+width:900px;
+height:172px;
+margin:64px 0px 0px 16px;
+
+}
+#block_reg {
+float:right;
+width:448px;
+height:368px;
+background-color:#1c1c1c;
+margin:64px 64px 0px 0px;
+border-radius:16px;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.6)
+}
+#block_reg h1{
+width:172px;
+height:32px;
+float:left;
+font-size:29px;
+color:#e9e9e9;
+font-family: 'Roboto', sans-serif;
+margin:24px;
+}
+#block_reg hr{
+	margin-top:-10px;
+	margin-right:0px;
+	width:384px;
+	height:0px;
+	float:right;
+}
+#block_reg Form{
+
+margin-top:72px;
+}
+#block_reg input{
+	border-radius:8px;
+	background-color:#494a4a;
+	margin:16px;
+	margin-left:64px;
+	font-size:22px;
+	outline:none; 
+	border:none;
+}
+.sub:hover{
+	cursor:pointer;
+	background-color:#494a4a;
+	color:#e9e9e9;
+	transform:scale(1.5,1.5);
+	transition:All .4s; 
+}
+#block_reg a{
+font-size:22px;
+color:#e9e9e9;
+text-decoration:none;
+margin-left:64px;
+}
