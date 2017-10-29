@@ -4,9 +4,13 @@
 <title>Регестрация</title>
 <link rel="stylesheet" type="text/css" href="../style/reset.css">
 <link rel="stylesheet" type="text/css" href="../style/style.css">
+<link rel="stylesheet" type="text/css" href="../style/preloader.css">
 <meta charset='utf8'>	
 </head>
 <body>
+	<?php
+include('../php_modal/preloader_2.php');
+	?>
 <div id="text_box">
 <h1>Все домашки.ру</h1>
 </div>
@@ -17,7 +21,7 @@
 <div id="block_reg">
 	<h1>Вход</h1>
 	<hr>
-	<Form name="reg" method="POST">
+	<Form name="reg" method="POST" action="home.php">
 		<input type="text" name="email" placeholder="Введите email..."><br>
 		<input type="text" name="password" placeholder="введите пароль..."><br>
 		<input class="sub" type="submit" name="reg" value="войти">

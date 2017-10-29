@@ -4,9 +4,14 @@
 <title>Регестрация</title>
 <link rel="stylesheet" type="text/css" href="style/reset.css">
 <link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="style/preloader.css">
 <meta charset='utf8'>	
 </head>
 <body>
+
+	<?php
+include('php_modal/preloader.php');
+	?>
 <div id="text_box">
 <h1>Все домашки.ру</h1>
 </div>
@@ -27,5 +32,9 @@
 
 </div>
 </div>
+
 </body>
 </html>
+<?php
+include_once 'php_modal/reg.php';
+?>

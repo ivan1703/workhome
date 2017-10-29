@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic');
+body{
+font-family: 'Roboto', sans-serif;
+background-size:cover;
+width:100%;
+height:100%;
+}
+#block_menu{
+overflow:hidden;
+width:100%;
+height:64px;
+background-color:#1c1c1c;
+box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+#left-block{
+	float:left;
+	width:352px;
+	height:64px;
+	font-size:46px;
+	font-family:'Marck Script',cursive;
+	padding:9px 0px 9px 24px;
+}
+#left-block a{
+	padding:9px 0px 9px 24px;
+	color:#e9e9e9;
+	text-decoration: none;
+}
+#left-block a:hover{
+	background-color:#e9e9e9; 
+	color:#1c1c1c;
+	transition:all .2s;
+}
+
+
+#right-block{
+	float:right;
+	padding:21px 336px 0px 0px;
+}
+#right-block ul li{
+	display: inline;
+}
+
+#right-block ul li a{
+	font-size:22px;
+	text-decoration:none;
+	color:#e9e9e9;
+	margin-right:32px;
+}
+
+
+#footer_block{
+	background-color:#1c1c1c;
+	float:bottom;
+	width:100%;
+	height:50px;
+}

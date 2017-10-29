@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic');
 body{
+background-repeat: no-repeat;
 overflow:hidden;
 font-family: 'Roboto', sans-serif;
 background-image:url(../photo/fon_box.jpg);
+background-size:100%;
 background-size:cover;
 width:100%;
 height:100%;
